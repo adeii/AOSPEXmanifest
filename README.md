@@ -14,11 +14,15 @@ This project is based on [**AOSP-OMS**](https://github.com/AOSP-RRO).Huge thanks
 
 To initialize your local repository using the AospExtended trees, use a command like this:
 ````bash
-repo init -u git://github.com/AospExtended/manifest.git -b marshmallow
+repo init -u git://github.com/adeii/AOSPEXmanifest.git -b marshmallow
 ```
+mkdir .repo/local_manifests
+cd .repo/local_manifests
+wget https://raw.githubusercontent.com/adeii/AOSPEXmanifest/marshmallow/huawei.xml
+cd ../..
 Then to sync up:
 ````bash
-repo sync
+repo sync --force-sync --no-tags --no-clone-bundle
 ```
 Finally to build:
 ````bash
@@ -26,9 +30,9 @@ Finally to build:
 ```
 Example:
 ````bash
-./build.sh falcon
-./build.sh titan
-./build.sh osprey
+./build.sh u8825
+./build.sh u8833
+./build.sh u8951
 ```
 
 Device specific local manifest's are in this repo in the format <codename>.xml
