@@ -14,7 +14,7 @@
    <project path="hardware/atheros/wlan" name="CM13-Y300/android_hardware_atheros_wlan" remote="github" revision="cm-13.0" />
 
      <!-- GPS -->
-     <remove-project name="LineageOS/android_hardware_qcom_gps" />
+     <!-- remove-project name="LineageOS/android_hardware_qcom_gps" / -->
      <project path="hardware/qcom/gps" name="CM13-Y300/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
 
      <project path="external/stlport" name="SlimRoms/android_external_stlport" remote="github" revision="mm6.0" />
