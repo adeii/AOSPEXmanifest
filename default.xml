@@ -541,6 +541,7 @@
   <!-- qrngd -->
   <project path="external/qrngd" name="android_external_qrngd" remote="slim" />
   <!-- masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <!-- project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" / -->
+  <project path="packages/apps/masquerade" name="YAOSP/packages_apps_masquerade" remote="github" revision="YAOSP-MM-6.0.1_r62" />
 
 </manifest>
